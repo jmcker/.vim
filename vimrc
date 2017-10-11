@@ -12,7 +12,7 @@ set background=dark
 set whichwrap+=<,>,h,l,[,]
 set laststatus=2
 
-hi StatusLine ctermbg=black  ctermfg=yellow  cterm=bold
+hi StatusLine ctermbg=yellow  ctermfg=black  cterm=reverse
 
 set statusline+=\ %f
 set statusline+=%m\
