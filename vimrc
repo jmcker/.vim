@@ -52,7 +52,6 @@ set shiftwidth=4
 set expandtab
 set autoindent
 set smartindent
-set cindent
 
 
 
@@ -71,3 +70,6 @@ syntax enable
 " Automatically add closing pairs
 ino {<CR> {<CR>}<ESC>O
 ino {;<CR> {<CR>};<ESC>O
+
+" Auto Pairs settings
+let g:AutoPairsMultilineClose = 0
