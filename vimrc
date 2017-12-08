@@ -10,18 +10,7 @@ set nocompatible
 set t_Co=256
 set background=dark
 set whichwrap+=<,>,h,l,[,]
-set laststatus=2
-
-hi StatusLine ctermbg=yellow  ctermfg=black  cterm=reverse
-
-set statusline+=\ %f
-set statusline+=%m\
-set statusline+=%=
-set statusline+=\ %y
-set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
-set statusline+=\[%{&fileformat}\]
-set statusline+=\ %l:%c
-set statusline+=\ 
+set wildmenu
 
 
 
@@ -32,8 +21,6 @@ set cmdheight=2
 
 " Add margin to the left
 set foldcolumn=0
-" Set bgcolor for FoldColumn to black
-highlight FoldColumn ctermbg=0
 
 " Show line numbers
 set number
