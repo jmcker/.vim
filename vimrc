@@ -22,6 +22,7 @@ set mouse=a " Enable mouse support for all modes
 "----------------------
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
 set expandtab
 set autoindent
 set smartindent
